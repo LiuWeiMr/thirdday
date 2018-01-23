@@ -1,0 +1,30 @@
+{
+  "name": "@thirdday/server",
+  "version": "1.0.1",
+  "description": "http serverr",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "LiuWeiMr",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-compress": "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-jwt": "^3.3.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "koa-static-cache": "^5.1.1",
+    "lru-cache": "^4.1.1"
+  }
+}
