@@ -1,0 +1,25 @@
+{
+  "name": "@thirdday/user",
+  "version": "1.0.0",
+  "description": "user manager",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "user"
+  ],
+  "author": "LiuWeiMr",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "age":12,
+  "redisHost": "192.168.1.123",
+  "redisPort": 6379,
+  "redisPass": 123456,
+  "redisTotalRetryTime": 3600000,
+  "redisTttempt": 3600000
+}

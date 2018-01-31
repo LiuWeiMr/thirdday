@@ -1,0 +1,8 @@
+{
+  "redisHost": "192.168.1.123",
+  "redisPort": 6379,
+  "redisPass": 123456,
+  "redisTotalRetryTime": 3600000,
+  "redisTttempt": 3600000,
+  "_comment": "redisTotalRetryTime是redis断开重连，最大连接时长。redisTttempt是redis断开重连，最大连接次数"
+}
