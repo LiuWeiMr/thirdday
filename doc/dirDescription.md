@@ -1,0 +1,14 @@
+一、目录结构说明：
+    1、bin：放置全局安装时命令文件（保存包可执行的文件）
+    2、doc：放置项目说明文档
+    3、lib：放置JS源码
+    4、test：放置测试文件
+    5、.gitignore：从git仓库中忽略的文件清单
+    6、.npmignore：不包括在npm注册库中的文件清单
+    7、LICENSE：包的授权文件
+    8、README.md：以Markdown格式编写的README文件
+    9、doc：保存包文档的文件夹
+    10、example：保存如何使用包的实际示例的文件夹
+    11、man：保存包的手册页文件夹
+    12、src：保存C/C++源文件的文件夹
+    13、benchmark：保存性能测试代码的文件夹

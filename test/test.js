@@ -3,16 +3,23 @@
  */
 
 
-const config = require("./config.json")
-
-//console.log(config);
-
-var n = 8.15;
-var c=0;
-while (n > 1) {
-    n = n - n * 0.1;
-    console.log(n);
-    c++;
+async function testAsync(){
+    return new Promise(function(reslove, reject) {
+        await foo();
+        reslove();
+    })
 }
 
-console.log(c);
+
+function foo(){
+    return new Promise(function(reslove, reject) {
+        setTimeout(function(){
+            console.log("---");
+            reslove("hahha")
+        },1000)
+    })
+}
+
+
+await testAsync()
+console.log("dsf");
